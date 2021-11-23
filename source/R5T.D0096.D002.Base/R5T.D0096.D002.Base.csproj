@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj" />
+    <ProjectReference Include="..\R5T.D0096.T001\R5T.D0096.T001.csproj" />
   </ItemGroup>
 
 </Project>
