@@ -13,7 +13,7 @@ namespace R5T.D0096.D003.I001
 
 
         public ConstructorBasedHumanOutputFileNameProvider(
-            string humanOutputFileName)
+            [NotServiceComponent] string humanOutputFileName)
         {
             this.HumanOutputFileName = humanOutputFileName;
         }

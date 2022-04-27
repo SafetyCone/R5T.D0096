@@ -13,7 +13,7 @@ namespace R5T.D0096.D003.I001
 
 
         public ConstructorBasedHumanOutputFilePathProvider(
-            string humanOutputFilePath)
+            [NotServiceComponent] string humanOutputFilePath)
         {
             this.HumanOutputFilePath = humanOutputFilePath;
         }

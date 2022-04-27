@@ -48,7 +48,8 @@ namespace R5T.D0096.I001
         private IEnumerable<IHumanOutputSink> HumanOutputSinks { get; set; }
 
 
-        public HumanOutput(IEnumerable<IHumanOutputSinkProvider> humanOutputSinkProviders)
+        public HumanOutput(
+            IEnumerable<IHumanOutputSinkProvider> humanOutputSinkProviders)
         {
             this.HumanOutputSinkProviders = humanOutputSinkProviders;
         }
