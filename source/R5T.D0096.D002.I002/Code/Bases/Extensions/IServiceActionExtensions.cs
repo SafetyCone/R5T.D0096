@@ -11,7 +11,7 @@ namespace R5T.D0096.D002.I002
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="ConsoleHumanOutputSinkProvider"/> implementation of <see cref="IHumanOutputSinkProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="ConsoleHumanOutputSinkProvider"/> implementation of <see cref="IHumanOutputSinkProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IHumanOutputSinkProvider> AddConsoleHumanOutputSinkProviderAction(this IServiceAction _,
             IServiceAction<IHumanOutputSynchronicityProvider> humanOutputSynchronicityProviderAction)

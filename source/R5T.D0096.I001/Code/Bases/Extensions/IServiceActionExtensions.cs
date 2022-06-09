@@ -10,7 +10,7 @@ namespace R5T.D0096.I001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="HumanOutput"/> implementation of <see cref="IHumanOutput"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="HumanOutput"/> implementation of <see cref="IHumanOutput"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IHumanOutput> AddHumanOutputAction(this IServiceAction _,
             IEnumerable<IServiceAction<IHumanOutputSinkProvider>> humanOutputSinkProviderActions)

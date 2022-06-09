@@ -10,7 +10,7 @@ namespace R5T.D0096.D003.I002
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="HumanOutputFilePathProvider"/> implementation of <see cref="IHumanOutputFilePathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="HumanOutputFilePathProvider"/> implementation of <see cref="IHumanOutputFilePathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IHumanOutputFilePathProvider> AddHumanOutputFilePathProviderAction(this IServiceAction _,
             IServiceAction<IHumanOutputFileNameProvider> humanOutputFileNameProviderAction,
