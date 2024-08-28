@@ -22,7 +22,7 @@ namespace R5T.D0096.A001
             IServiceAction<IHumanOutputFilePathProvider> humanOutputFilePathProviderAction)
         {
             var humanOutputSynchronicityProviderAction = _.AddHumanOutputSynchronicityProviderAction(
-                   executionSynchronicityProviderAction);
+                executionSynchronicityProviderAction);
             var consoleHumanOutputSinkProviderAction = _.AddConsoleHumanOutputSinkProviderAction(
                 humanOutputSynchronicityProviderAction);
             var fileHumanOutputSinkProvider = _.AddFileHumanOutputSinkProviderAction(
